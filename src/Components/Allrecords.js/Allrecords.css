@@ -1,0 +1,136 @@
+@media screen and (max-width:768px) {
+    .data-table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    .H2Tag{
+        font-size: .8rem;
+        font-family: cursive;
+    }
+    .headrecord{
+        text-align: center;
+        font-family: monospace;
+        font-size: .8rem;
+    }
+    .student-table{
+        font-size: 60%;
+    }
+    .data-table th,
+    .student-table td {
+        border: 1px solid #ddd;
+        padding: .1rem;
+        text-align: center;
+        font-family: cursive;
+    }
+    .student-table th {
+        background-color: #333232;
+        color: white;
+        font-weight: bold;
+    }
+    .student-table tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    
+    .student-table tr:hover {
+        background-color: #ddd;
+    }
+    .member-table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    .member-table th,
+    .member-table td {
+        border: 1px solid #ddd;
+        padding: .5rem;
+        text-align: left;
+        font-family: cursive;
+    }
+    
+    .member-table th {
+        background-color: #3161ff;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .member-table tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    
+    .member-table tr:hover {
+        background-color: #ddd;
+    }
+    .table-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width:768px){
+    .data-table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    .H2Tag{
+        font-size: 1rem;
+        font-family: cursive;
+    }
+    .headrecord{
+        text-align: center;
+        font-family: monospace;
+    }
+    .data-table th,
+    .student-table td {
+        border: 1px solid #ddd;
+        padding: .5rem;
+        text-align: left;
+        font-family: cursive;
+    }
+    
+    .student-table th {
+        background-color: #333232;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .student-table tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    
+    .student-table tr:hover {
+        background-color: #ddd;
+    }
+    .member-table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    .member-table th,
+    .member-table td {
+        border: 1px solid #ddd;
+        padding: .5rem;
+        text-align: left;
+        font-family: cursive;
+    }
+    
+    .member-table th {
+        background-color: #3161ff;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .member-table tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    
+    .member-table tr:hover {
+        background-color: #ddd;
+    }
+    .table-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+}

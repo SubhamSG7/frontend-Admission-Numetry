@@ -1,0 +1,76 @@
+@media screen and (max-width:768px){
+    .FooterContainerDiv {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(43, 42, 42);
+        color: white;
+    }
+    .firstFooter {
+        text-align: center;
+    }
+
+    .firstFooter>h3 {
+        font-family: cursive;
+        font-size: .75rem;
+    }
+
+    .firstFooter>p {
+        font-family: monospace;
+    }
+
+    .seconFooter {
+        width: 100%;
+    }
+
+    .secondFooter {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-family: cursive;
+    }
+
+    .secondFooter>p {
+        margin: .5rem;
+    }
+}
+
+
+
+@media screen and (min-width:768px) {
+    .FooterContainerDiv {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(43, 42, 42);
+        color: white;
+    }
+
+    .firstFooter {
+        text-align: center;
+    }
+
+    .firstFooter>h3 {
+        font-family: cursive;
+        font-size: 1.5rem;
+    }
+
+    .firstFooter>p {
+        font-family: monospace;
+    }
+
+    .seconFooter {
+        width: 100%;
+    }
+
+    .secondFooter {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-family: cursive;
+    }
+
+    .secondFooter>p {
+        margin: 1rem;
+    }
+}

@@ -1,0 +1,33 @@
+.CoursesDiv{
+    display: flex;
+    flex-direction: column;
+}
+.CoursesDiv>h2{
+    font-family: cursive;
+    color: rgb(53, 52, 52);
+    margin-bottom: 1%;
+}
+.LeftNavContainer{
+    margin-top: 5%;
+    margin-left: 4%;
+}
+#CourseBTN{
+    margin: 1%;
+    margin-top: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.SingleCourseDiv{
+    background-color: grey;
+    padding: 5%;
+    font-family: cursive;
+    color: cornsilk;
+    border-radius: 1rem;
+    margin-top: 1%;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.SingleCourseDiv>p{
+    font-size: .8rem;
+}
+.CourseBTN{
+    width: 80%;
+}

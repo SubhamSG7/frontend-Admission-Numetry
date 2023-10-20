@@ -1,0 +1,36 @@
+.RightNavImg{
+    width: 45%;
+    margin: 1%;
+    border-radius: 1rem;
+    height: 6rem;
+}
+.AboutDivRight{
+    display: flex;
+    flex-direction: column;
+}
+.SingleRightDiv{
+    padding: 2%;
+    font-family: cursive;
+    background-color: rgb(87, 87, 87);
+    color: white;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 2px rgb(29, 29, 29);
+}
+.SingleRightDiv>p{
+    font-size: .7rem;
+}
+.SingleRightDiv>h3{
+    font-size: 1rem;
+}
+.RightNavContainer{
+    margin-top: 7%;
+}
+.RightNavContainer>button{
+    margin: 2%;
+}
+.RightNavBTN{
+    margin: 2%;
+}
+#RightNavBTN{
+    width: 80%;
+}

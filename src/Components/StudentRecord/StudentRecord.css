@@ -1,0 +1,146 @@
+/* DataTable.css */
+@media  screen and (max-width:768px) {
+    .data-table {
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 60%;
+    }
+    .H2Tag{
+        font-size: .8rem;
+        font-family: cursive;
+    }
+    .headrecord{
+        text-align: center;
+        font-family: monospace;
+        font-size: .8rem;
+    }
+    .data-table th,
+    .data-table td {
+        border: 1px solid #ddd;
+        padding: .1rem;
+        text-align: center;
+        font-family: cursive;
+    }
+    .data-table th {
+        background-color: #333232;
+        color: white;
+        font-weight: bold;
+    }
+    .data-table tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    
+    .data-table tr:hover {
+        background-color: #ddd;
+    }    
+    .data-table th {
+        background-color: #007bff;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .data-table tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    
+    .data-table tr:hover {
+        background-color: #ddd;
+    }
+    .header1{
+        text-align: center;
+        font-family: cursive;
+        display: flex;
+        justify-content: space-between;
+        height: 22%;
+        background-color: rgb(87, 87, 87);
+        border-radius: 1rem;
+        color: white;
+        padding: .5rem;
+    }
+    .Divheader2{
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        width: 40%;
+        color: rgb(105, 105, 105);
+        border-radius: .5rem;
+        box-shadow: 1px 1px 1px 1px black;
+        padding-right: 1rem;
+        height: fit-content;
+        font-size: 42%;
+        margin-top: 7%;
+    }
+}
+@media screen and (min-width:768px) {
+    .data-table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    .data-table th,
+    .data-table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    
+    .data-table th {
+        background-color: #007bff;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .data-table tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    
+    .data-table tr:hover {
+        background-color: #ddd;
+    }
+    .header1{
+        text-align: center;
+        font-family: cursive;
+        display: flex;
+        justify-content: space-between;
+        height: 22%;
+        background-color: rgb(87, 87, 87);
+        border-radius: 1rem;
+        color: white;
+        padding: 1rem;
+    }
+    .Divheader2{
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        width: 40%;
+        color: rgb(105, 105, 105);
+        border-radius: 1rem;
+        box-shadow: 2px 2px 2px 2px black;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        height: fit-content;
+    }
+    .h1tagStudent{
+        margin-left: 40%;
+        font-family: cursive;
+        color: rgb(87, 87, 87);
+    }
+    .Contain{
+        background-color:rgb(255, 255, 255);
+        height: 100vh;
+    }
+    .ptagname{
+        font-weight: 800;
+        font-size: 1.5rem;
+    }
+    .PtagFaculty{
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    .ptagemail{
+        font-weight: 600;
+        font-size: 1.3rem;
+    }
+    
+    
+}
